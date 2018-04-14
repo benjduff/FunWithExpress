@@ -38,8 +38,8 @@ app.use(bodyParser.json());
 
 //passport middlware -- WILL INSTALL LATER
 
-//use '/game' for all game routes
-app.use('/game', game);
+//use '/game' for all routes
+app.use('/', game);
 
 
 //start server
